@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+font-size: 15px;
+line-height: 1.5;
+font-family: 'Montserrat', sans-serif;
+background-color: blue;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.header-wrap{
+    max-width: 800px;
+    width:85%;
+    margin:0 auto;
+    padding: 60px 0;
+    display: block;
+    text-align: center;
+
+}
+.header-wrap h1{
+    font-size: 50px;
+    line-height: 1;
+}
+.header-wrap h3{
+    font-size: 20px;
+}
+.heading1{
+    display:block;
+    padding: 0 60px 0 40px;
+    background-color: teal;
+    width: inherit;
+}
+.heading1 h1{
+font-size:50px;
+text-transform:capitalize;
+}
+.heading1 p{
+   font-size: 20px; 
+}
+.Education-heading{
+    display: block;
+    padding: 0 60px 0 40px;
+    background-color: darkgray;
+}
+.Education-heading h1{
+    font-size:50px;
+    text-transform: capitalize;
+}
+.Education-heading ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.Education-heading p{
+    font-size: 20px;
+}
+.Education-heading ul li h3{
+    white-space: nowrap;
+    font-size: 20px;
+}
+.certification-heading{
+    display: block;
+    padding: 0 60px 0 40px;
+    background-color: teal;
+}
+.certification-heading h1{
+    font-size: 50px;
+    text-transform:capitalize;
+}
+.certification-heading ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.certification-heading ul li h3{
+    font-size: 20px;
+    white-space: nowrap;
+}
+.workexperience-heading{
+    display: block;
+    padding: 0 60px 0 40px;
+    background-color: thistle;
+}
+.workexperience-heading h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.workexperience-heading h2{
+    font-size: 20px;
+    white-space: nowrap;
+}
+.workexperience-heading ul li p{
+  font-size: 20px; 
+  text-align: left;
+  width: 50%; 
+}
+.workproof1,
+.workproof2,
+.workproof3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leadership-heading{
+    display: block;
+    padding: 0 60px 0 40px;
+}
+.leadership-heading h1{
+    font-size:50px;
+    text-transform: capitalize;
+}
+.leadership-heading ul li p{
+    font-size: 20px;
+}
+.project-heading{
+    display: block;
+    padding: 0 60px 0 40px;
+    background-color: wheat;
+}
+.project-heading h1{
+    font-size:50px;
+    text-transform: capitalize;
+}
+.project-heading ul li p{
+    font-size: 20px;
+}
+
+@media screen and(min-width:768px){
+
+    
+    .workproof1,.workproof2{
+        display: block;
+    }
+    .workexperience-heading h1{
+        font-size: 20px;
+    }
+    .workexperience-heading ul li p{
+        width: 100%;
+    }
+    .certification-heading ul{
+        display: block;
+    }
+    .heading1 .Education-heading{
+        min-width: 600px;
+        width:100%;
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading1 p{
+        font-size: 15px;
+        width:80%;
+        padding: 10px;
+    }
+    .header-wrap{
+        min-width: 500px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .header-wrap h1{
+        font-size: 35px;
+    }
+    .Education-heading ul{
+        display: block;       
+    }
+    .workproof1 h2,.workproof2 h2{
+       font-size: 15px; 
+    }
+    .leadership-heading h1{
+        font-size: 20px;
+    }
+}
+@media screen and(max-width:641px){
+    body{
+        max-width: 480px;
+        overflow: hidden;
+    }
+    .workproof1,.workproof2{
+        display: block;
+    }
+    .workexperience-heading h1{
+        font-size: 10px;
+    }
+    .workexperience-heading ul li p{
+        width: 100%;
+    }
+    .certification-heading ul{
+        display: block;
+    }
+    .heading1 .Education-heading{
+        min-width: 400px;
+        width:100%;
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading1 p{
+        font-size: 10px;
+        width:60%;
+        padding: 5px;
+    }
+    .header-wrap{
+        min-width: 300px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .header-wrap h1{
+        font-size: 15px;
+    }
+    .Education-heading ul{
+        display: block;       
+    }
+    .workproof1 h2,
+    .workproof2 h2{
+       font-size: 10px; 
+    }
+    .leadership-heading h1{
+        font-size: 10px;
+    }
+}
