@@ -3,11 +3,12 @@
     margin:0;
     padding:0;
 }
+
 body{
 font-size: 15px;
 line-height: 1.5;
 font-family: 'Montserrat', sans-serif;
-background-color: blue;
+background-color: thistle;
 }
 a{
     text-decoration: none;
@@ -17,13 +18,13 @@ a{
     max-width: 800px;
     width:85%;
     margin:0 auto;
-    padding: 60px 0;
+    padding: 10px 0;
     display: block;
     text-align: center;
 
 }
 .header-wrap h1{
-    font-size: 50px;
+    font-size: 30px;
     line-height: 1;
 }
 .header-wrap h3{
@@ -31,30 +32,37 @@ a{
 }
 .heading1{
     display:block;
-    padding: 0 60px 0 40px;
-    background-color: teal;
+    margin:0 auto;
+    padding: 10px 0;
     width: inherit;
+    max-width: 800px;
+    width: 85%;
 }
 .heading1 h1{
-font-size:50px;
+font-size:30px;
 text-transform:capitalize;
 }
 .heading1 p{
    font-size: 20px; 
 }
 .Education-heading{
+    max-width: 800px;
+    width: 85%;
     display: block;
-    padding: 0 60px 0 40px;
-    background-color: darkgray;
+    margin:0 auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
 }
 .Education-heading h1{
-    font-size:50px;
+    font-size:30px;
     text-transform: capitalize;
 }
 .Education-heading ul{
     display: flex;
     align-items:center;
     justify-content: space-between;
+    list-style-type: none;
 }
 .Education-heading p{
     font-size: 20px;
@@ -65,17 +73,20 @@ text-transform:capitalize;
 }
 .certification-heading{
     display: block;
-    padding: 0 60px 0 40px;
-    background-color: teal;
+    margin:0 auto;
+    padding: 10px 0;
+    max-width: 800px;
+    width: 85%;
 }
 .certification-heading h1{
-    font-size: 50px;
+    font-size: 30px;
     text-transform:capitalize;
 }
 .certification-heading ul{
     display: flex;
     align-items:center;
     justify-content: space-between;
+    list-style-type: none;
 }
 .certification-heading ul li h3{
     font-size: 20px;
@@ -83,11 +94,13 @@ text-transform:capitalize;
 }
 .workexperience-heading{
     display: block;
-    padding: 0 60px 0 40px;
-    background-color: thistle;
+    margin:0 auto;
+    padding: 10px 0;
+    max-width: 800px;
+    width: 85%;
 }
 .workexperience-heading h1{
-    font-size: 50px;
+    font-size: 30px;
     text-transform: capitalize;
 }
 .workexperience-heading h2{
@@ -99,6 +112,9 @@ text-transform:capitalize;
   text-align: left;
   width: 50%; 
 }
+.workexperience-heading ul{
+    list-style-type: none;
+}
 .workproof1,
 .workproof2,
 .workproof3{
@@ -108,120 +124,103 @@ text-transform:capitalize;
 }
 .leadership-heading{
     display: block;
-    padding: 0 60px 0 40px;
+    margin:0 auto;
+    padding: 10px 0;
+    max-width: 800px;
+    width: 85%;
 }
 .leadership-heading h1{
-    font-size:50px;
+    font-size:30px;
     text-transform: capitalize;
+}
+.leadership-heading ul{
+    list-style-type: none;
 }
 .leadership-heading ul li p{
     font-size: 20px;
 }
 .project-heading{
     display: block;
-    padding: 0 60px 0 40px;
-    background-color: wheat;
+    margin:0 auto;
+    padding: 10px 0;
+    max-width: 800px;
+    width: 85%;
 }
 .project-heading h1{
-    font-size:50px;
+    font-size:30px;
     text-transform: capitalize;
+}
+.project-heading ul{
+    list-style-type: none;
 }
 .project-heading ul li p{
     font-size: 20px;
 }
-
-@media screen and(min-width:768px){
-
+/*@media screen and (max-width:1200px) {
     
-    .workproof1,.workproof2{
-        display: block;
-    }
-    .workexperience-heading h1{
-        font-size: 20px;
-    }
-    .workexperience-heading ul li p{
-        width: 100%;
-    }
-    .certification-heading ul{
-        display: block;
-    }
-    .heading1 .Education-heading{
-        min-width: 600px;
-        width:100%;
-        display:block;
-        align-items: center;
-        justify-content: center;
-    }
-    .heading1 p{
-        font-size: 15px;
-        width:80%;
-        padding: 10px;
-    }
-    .header-wrap{
-        min-width: 500px;
-        width: 100%;
-        text-align: center;
-        display: block;
-    }
-    .header-wrap h1{
-        font-size: 35px;
-    }
-    .Education-heading ul{
-        display: block;       
-    }
-    .workproof1 h2,.workproof2 h2{
-       font-size: 15px; 
-    }
-    .leadership-heading h1{
-        font-size: 20px;
-    }
 }
-@media screen and(max-width:641px){
-    body{
-        max-width: 480px;
-        overflow: hidden;
-    }
-    .workproof1,.workproof2{
-        display: block;
-    }
-    .workexperience-heading h1{
-        font-size: 10px;
-    }
-    .workexperience-heading ul li p{
-        width: 100%;
-    }
-    .certification-heading ul{
-        display: block;
-    }
-    .heading1 .Education-heading{
-        min-width: 400px;
-        width:100%;
-        display:block;
-        align-items: center;
-        justify-content: center;
-    }
-    .heading1 p{
-        font-size: 10px;
-        width:60%;
-        padding: 5px;
-    }
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
+}*/
+@media screen and (max-width:576px) {
     .header-wrap{
-        min-width: 300px;
-        width: 100%;
-        text-align: center;
-        display: block;
+        width: 400px;
+        margin:0 auto;
+        padding:20px 0;
+        font-size: 15px;
     }
-    .header-wrap h1{
+    .heading1{
+        margin:0 auto;
+        padding: 20px 0;
+        width: 400px;
+        font-size: 15px;
+    } 
+    .Education-heading{
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px 0;
         font-size: 15px;
     }
     .Education-heading ul{
-        display: block;       
+       display: inline-block;
     }
-    .workproof1 h2,
-    .workproof2 h2{
-       font-size: 10px; 
+    .certification-heading{
+        margin:0 auto;
+        padding: 20px 0;
+        width: 400px;
+        font-size: 15px;
     }
-    .leadership-heading h1{
+    .certification-heading ul{
+        display: block;
+        place-items: center;
+    }
+    .workexperience-heading{
+        font-size: 15px;
+        margin:0 auto;
+        padding: 20px 0;
+        width: 400px;
+    }
+    .workproof1,
+    .workproof2,
+    .workproof3{
+        display: block;
+        place-items: center;
+    }
+    .leadership-heading{
         font-size: 10px;
+        margin:0 auto;
+        padding: 20px 0;
+        width: 400px;
     }
+    .project-heading{
+        font-size: 15px;
+        margin:0 auto;
+        padding: 20px 0;
+        width:400px;
+    }
+    
 }
